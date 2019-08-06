@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "dist",
+    "paths": {}
+  },
+  "references": [
+    {
+      "path": "../ui"
+    },
+    {
+      "path": "../utils"
+    }
+  ]
+}
